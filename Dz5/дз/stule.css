@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #202124;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.wrapper {
+  background: #fff;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.text {
+  padding: 30px 20px;
+}
+
+.text p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1b2a47;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.author {
+  display: block;
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.hp-logo {
+  color: #c9a227;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.poster {
+  position: relative;
+}
+
+.poster img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(26,115,232,0.3);
+}
+
+.avatars {
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #1a73e8;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -10px;
+  border: 3px solid #fff;
+}
+
+.avatars img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
